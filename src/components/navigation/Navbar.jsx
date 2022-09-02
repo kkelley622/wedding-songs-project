@@ -1,10 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Container from "@material-ui/core/Container";
+import Container from '@material-ui/core/Container';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -28,10 +29,10 @@ const Navbar = () => {
         <Container>
             <Toolbar>
             <Typography variant="h6" className={classes.title}>
-            <Button color="inherit">Kevin and Sandra's Song App</Button>
+            <Button color="inherit" component={ Link } to="/">Kevin and Sandra's Song App</Button>
             </Typography>
-            <Button color="inherit">List Songs</Button>
-            <Button color="inherit">Add Songs</Button>
+            <Button color="inherit" component={ Link } to="/songs">List Songs</Button>
+            <Button color="inherit" component={ Link } to="/songs/add">Add Songs</Button>
             </Toolbar>
         </Container>
       </AppBar>
