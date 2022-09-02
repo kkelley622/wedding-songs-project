@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor: "gold", color: "black"}}>
         <Container>
             <Toolbar>
             <Typography variant="h6" className={classes.title}>
