@@ -1,17 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const SongForm = () => {
+  const [formData, setFormData] = useState({
+    title: "",
+    artist: ""
+  })
+
+  const handleChange = (event) => {
+    setFormData({...formData, [event.target.name]:event.target.value})
+  }
+
+  console.log(formData)
   return (
-    <form>
-            <label>
-                Title:
-                <input type="text" name="title" />
-            </label>
-            <label>
-                Artist:
-                <input type="text" name="artist" />
-            </label>
-            <input type="submit" name="submit" />
+    <form style={{display:"flex", flexDirection:"column", width:"300px"}}>
+      <label>Title:</label>
+        <input 
+          type="text" 
+          name="title" 
+          aria-label="title"
+          value={formData.title}
+          onChange={handleChange}
+          />
+      <label>Artist:</label>
+        <input 
+          type="text" 
+          name="artist"
+          aria-label="artist"
+          value={formData.artist}
+          onChange={handleChange}
+          />
         </form>
   )
 }
