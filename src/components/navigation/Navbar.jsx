@@ -25,14 +25,14 @@ const Navbar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{backgroundColor: "gold", color: "black"}}>
+      <AppBar position="static" style={{backgroundColor: "rgb(72, 111, 89)", color: "white"}}>
         <Container>
             <Toolbar>
             <Typography variant="h6" className={classes.title}>
-            <Button color="inherit" component={ Link } to="/">Kevin and Sandra's Song App</Button>
+            <Button color="inherit" component={ Link } to="/">Kevin and Sandra's Wedding Songs App</Button>
             </Typography>
-            <Button color="inherit" component={ Link } to="/songs">List Songs</Button>
-            <Button color="inherit" component={ Link } to="/songs/add">Add Songs</Button>
+            <Button color="inherit" component={ Link } to="/songs">Songs We've Already Got</Button>
+            <Button color="inherit" component={ Link } to="/songs/add">Add Your Jam</Button>
             </Toolbar>
         </Container>
       </AppBar>

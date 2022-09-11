@@ -1,19 +1,94 @@
 {
-  "posts": [
+  "songs": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Get Low",
+      "artist": "Lil John",
+      "likes": 0
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "Just Dance",
+      "artist": "Lady Gaga",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "title": "Titanium",
+      "artist": "Sia",
+      "likes": 0
+    },
+    {
+      "id": 6,
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "likes": 0
+    },
+    {
+      "id": 7,
+      "title": "All the Small Things",
+      "artist": "Blink 182",
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "title": "Espiral",
+      "artist": "Porter",
+      "likes": 0
+    },
+    {
+      "title": "Efecto",
+      "artist": "Bad Bunny",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "title": "Hey Ya!",
+      "artist": "Outkast",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "title": "Stayin Alive",
+      "artist": "Bee Gees",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "title": "I Wanna Dance With Somebody",
+      "artist": "Whitney Houston",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "title": "Pump Up the Jam",
+      "artist": "Technotronic",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "title": "Sone",
+      "artist": "Zoe",
+      "likes": 0,
+      "id": 15
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -4,8 +4,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 const SongCard = ( { song } ) => {
   return (
-    <ListItem button>
-      <ListItemText primary={ song.title } secondary={ song.artist }/>
+    <ListItem style={{width: 400}}>
+      <ListItemText key="id" primary={ song.title + " 🎵 "} secondary={ song.artist + " 🎤 " }/>
+      <button> ❤️ {song.likes}</button>
     </ListItem>
   )
 }

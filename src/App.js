@@ -18,13 +18,24 @@ const App = () => {
     fetchSongs();
   }, [])
 
+  const handleSubmit = async (event, songObj) => {
+    event.preventDefault();
+    const response = await fetch(baseUrl + "/songs", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(songObj)
+    });
+  }
+
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/songs" element={<WantedSongs songs= { songs }/>} />
-        <Route path="/songs/add" element={<NewSong />} />
+        <Route path="/songs/add" element={<NewSong handleSubmit={handleSubmit}/>} />
       </Routes>
     </Router>
   );

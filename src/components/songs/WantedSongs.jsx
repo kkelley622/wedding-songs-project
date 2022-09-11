@@ -20,7 +20,7 @@ const WantedSongs = ( { songs } ) => {
     const songCards = songs.map(song => <SongCard key={ song.id } song={ song }/>)
   return (
     <div>
-        <h1>Songs we want to dance to</h1>
+        <h1 style={{color: "rgb(20, 90, 50)"}}>Songs We Want to Dance To 💃</h1>
         <List component="nav" aria-label="secondary mailbox folders">
             { songCards }
       </List>
