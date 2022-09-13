@@ -10,19 +10,19 @@
       "id": 2,
       "title": "Just Dance",
       "artist": "Lady Gaga",
-      "likes": 0
+      "likes": null
     },
     {
       "id": 3,
       "title": "Bohemian Rhapsody",
       "artist": "Queen",
-      "likes": 0
+      "likes": null
     },
     {
       "id": 4,
       "title": "Billie Jean",
       "artist": "Michael Jackson",
-      "likes": 0
+      "likes": null
     },
     {
       "id": 5,
@@ -34,19 +34,19 @@
       "id": 6,
       "title": "Mr. Brightside",
       "artist": "The Killers",
-      "likes": 1
+      "likes": null
     },
     {
       "id": 7,
       "title": "All the Small Things",
       "artist": "Blink 182",
-      "likes": 0
+      "likes": null
     },
     {
       "id": 8,
       "title": "Espiral",
       "artist": "Porter",
-      "likes": 0
+      "likes": null
     },
     {
       "title": "Efecto",
@@ -69,7 +69,7 @@
     {
       "title": "Stayin Alive",
       "artist": "Bee Gees",
-      "likes": 0,
+      "likes": null,
       "id": 12
     },
     {
@@ -87,8 +87,50 @@
     {
       "title": "Sone",
       "artist": "Zoe",
-      "likes": 0,
+      "likes": null,
       "id": 15
+    },
+    {
+      "title": "Get Lucky",
+      "artist": "Daft Punk",
+      "likes": null,
+      "id": 17
+    },
+    {
+      "title": "Bidi Bidi Bom Bom",
+      "artist": "Selena",
+      "likes": null,
+      "id": 20
+    },
+    {
+      "title": "La Chona",
+      "artist": "Los Tucanes De Tijuana",
+      "likes": null,
+      "id": 21
+    },
+    {
+      "title": "Envolver",
+      "artist": "Anitta",
+      "likes": null,
+      "id": 22
+    },
+    {
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "likes": 0,
+      "id": 23
+    },
+    {
+      "title": "Mi Gente",
+      "artist": "J Balvin",
+      "likes": null,
+      "id": 24
+    },
+    {
+      "title": "No rompas mi corazon",
+      "artist": "Caballo Dorado",
+      "likes": 0,
+      "id": 25
     }
   ]
 }

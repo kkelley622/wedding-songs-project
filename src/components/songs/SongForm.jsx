@@ -9,6 +9,7 @@ const SongForm = ({ handleSubmit }) => {
 
   const handleChange = (event) => {
     setFormData({...formData, [event.target.name]:event.target.value})
+
   }
 
   const clearForm = (event) => {
@@ -17,6 +18,7 @@ const SongForm = ({ handleSubmit }) => {
       title:"",
       artist:""
     })
+    alert("Your Song Was Added Successfully")
   }
 
   console.log(formData)
@@ -38,7 +40,7 @@ const SongForm = ({ handleSubmit }) => {
           value={formData.artist}
           onChange={handleChange}
           />
-          <input type="submit" />
+          <input type="submit"/>
         </form>
   )
 }

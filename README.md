@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Kevin and Sandra's Wedding Songs App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app allows users to see what songs people would like to hear at our wedding reception, and to add their own songs to the list.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+- Run 'yarn start' or 'npm start', depending on what you have installed, in the terminal to open index.html in the browser
+- Open a new terminal and run 'json-server --watch db.json --port 3001'
+- The app opens on the home page which includes instructions
+- Click the 'Songs We've Already Got' tab to see what songs other users have already added. Users can also like a song if they agree and want to hear that song
+- Click the 'Add Your Jam' tab to submit any song you would like to hear at our reception, the user will also receive an alert that the song was successfully added
 
-### `npm start`
+### Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Have json-server installed
+- Have yarn or npm installed
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Installation Instructions
+ - Fork and clone this repository
+ - Be sure to run 'json-server --watch db.json --port 3001' as it is necessary to have db.json running on the correct port
 
-### `npm test`
+### Conclusion 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+THis single page React app brings users to a homepage that provides instructions on how to use the app. Users can view and like songs other users have already added to the list and want to hear at our wedding reception. And they can add their own song that they would like to hear
 
-### `npm run build`
+### Acknowledgements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Guidance and inspiration taken from Enoch Griffin and his phase-2 project build videos
+- Homepage gif is a clip from NBC's "The Office" and was taken from "https://media2.giphy.com/media/jU9m03NG7bw88rwzok/giphy.gif"

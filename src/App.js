@@ -20,7 +20,7 @@ const App = () => {
 
   const handleSubmit = async (event, songObj) => {
     event.preventDefault();
-    const response = await fetch(baseUrl + "/songs", {
+    const response = await fetch(baseUrl + "/songs",{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -29,12 +29,17 @@ const App = () => {
     });
   }
 
+  const handleUpdateSong = (updatedSong) => {
+    const updatedSongs = songs.map((song) => song.id === updatedSong.id ? updatedSong : song);
+    setSongs(updatedSongs);
+  }
+
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/songs" element={<WantedSongs songs= { songs }/>} />
+        <Route path="/songs" element={<WantedSongs songs= { songs } handleUpdateSong={handleUpdateSong}/>} />
         <Route path="/songs/add" element={<NewSong handleSubmit={handleSubmit}/>} />
       </Routes>
     </Router>
