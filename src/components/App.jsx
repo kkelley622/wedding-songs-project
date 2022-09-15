@@ -16,7 +16,7 @@ const App = () => {
       setSongs(data)
     }
     fetchSongs();
-  }, [setSongs])
+  }, [])
   
   const handleSubmit = async (event, songObj) => {
     event.preventDefault();
@@ -33,7 +33,7 @@ const App = () => {
   
   const handleUpdateSong = (updatedSong) => {
     const updatedSongs = songs.map((song) => song.id === updatedSong.id ? updatedSong : song);
-    setSongs(updatedSongs);
+    setSongs(updatedSongs)
   }
   
 

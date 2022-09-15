@@ -1,10 +1,14 @@
+import React, { useState } from "react"
+
 const LikeButton = ({ song, handleUpdateSong }) => {
-    const {id, likes} = song;
+    let {id, likes} = song;
+    const [updatedLikes, setUpdatedLikes] = useState(song.likes)
 
 
     const handleLikes = () => {
-        const updatedSong = {likes: song.likes + 1}
-    
+      const updatedSong = {likes: updatedLikes + 1}
+      setUpdatedLikes(updatedLikes + 1);
+
         fetch(`http://localhost:3001/songs/${id}`, {
           method: "PATCH",
           headers: {
@@ -18,7 +22,8 @@ const LikeButton = ({ song, handleUpdateSong }) => {
 
   return (
     <div>
-        <button onClick={handleLikes} id={id}>❤️ {likes}</button>
+       
+        <button onClick={handleLikes} id={id}>❤️ {updatedLikes}</button>
     </div>
   )
 }
