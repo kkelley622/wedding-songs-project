@@ -3,7 +3,6 @@ const LikeButton = ({ song, handleUpdateSong }) => {
 
 
     const handleLikes = () => {
-        console.log(likes)
         const updatedSong = {
           likes: song.likes + 1}
     

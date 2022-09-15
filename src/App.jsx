@@ -13,7 +13,7 @@ const App = () => {
     const fetchSongs = async () => {
       const response = await fetch(baseUrl + "/songs");
       const data = await response.json();
-      setSongs(data);
+      setSongs(data)
     }
     fetchSongs();
   }, [])
