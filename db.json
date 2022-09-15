@@ -57,7 +57,7 @@
     {
       "title": "Dancing Queen",
       "artist": "ABBA",
-      "likes": 0,
+      "likes": 1,
       "id": 10
     },
     {
@@ -123,7 +123,7 @@
     {
       "title": "Mi Gente",
       "artist": "J Balvin",
-      "likes": 7,
+      "likes": 8,
       "id": 24
     },
     {
@@ -141,7 +141,7 @@
     {
       "title": "One Kiss",
       "artist": "Dua Lipa",
-      "likes": 2,
+      "likes": 4,
       "id": 27
     },
     {
@@ -161,6 +161,18 @@
       "artist": "Village People",
       "likes": 0,
       "id": 30
+    },
+    {
+      "title": "My Universe",
+      "artist": "Coldplay",
+      "likes": 0,
+      "id": 31
+    },
+    {
+      "title": "Stacy's Mom",
+      "artist": "Fountains of Wayne",
+      "likes": 0,
+      "id": 32
     }
   ]
 }

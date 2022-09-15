@@ -3,8 +3,7 @@ const LikeButton = ({ song, handleUpdateSong }) => {
 
 
     const handleLikes = () => {
-        const updatedSong = {
-          likes: song.likes + 1}
+        const updatedSong = {likes: song.likes + 1}
     
         fetch(`http://localhost:3001/songs/${id}`, {
           method: "PATCH",
