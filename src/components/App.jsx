@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./components/navigation/Navbar";
-import Home from "./components/static/Home";
-import WantedSongs from "./components/songs/WantedSongs";
-import NewSong from "./components/songs/NewSong";
+import Navbar from "./navigation/Navbar";
+import Home from "./static/Home";
+import WantedSongs from "./songs/WantedSongs";
+import NewSong from "./songs/NewSong";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { baseUrl } from "./Global";
+import { baseUrl } from "../Global";
 
 const App = () => {
   const [songs, setSongs] = useState([]);
@@ -16,7 +16,7 @@ const App = () => {
       setSongs(data)
     }
     fetchSongs();
-  }, [])
+  }, [setSongs])
   
   const handleSubmit = async (event, songObj) => {
     event.preventDefault();

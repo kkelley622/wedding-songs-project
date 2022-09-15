@@ -19,7 +19,7 @@ const SongForm = ({ handleSubmit }) => {
       title:"",
       artist:""
     })
-    alert("Your Song Was Added Successfully")
+    alert("Your Song Was Successfully Added")
   }
 
 
