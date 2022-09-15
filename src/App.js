@@ -17,7 +17,7 @@ const App = () => {
     }
     fetchSongs();
   }, [])
-
+  
   const handleSubmit = async (event, songObj) => {
     event.preventDefault();
     const response = await fetch(baseUrl + "/songs",{
@@ -28,11 +28,12 @@ const App = () => {
       body: JSON.stringify(songObj)
     });
   }
-
+  
   const handleUpdateSong = (updatedSong) => {
     const updatedSongs = songs.map((song) => song.id === updatedSong.id ? updatedSong : song);
     setSongs(updatedSongs);
   }
+  
 
   return (
     <Router>

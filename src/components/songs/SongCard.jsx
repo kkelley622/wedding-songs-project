@@ -8,7 +8,7 @@ const SongCard = ( { song, handleUpdateSong } ) => {
   
   return (
     <ListItem style={{width: 400}}>
-      <ListItemText key="id" primary={ song.title + " 🎵 "} secondary={ song.artist + " 🎤 " }/>
+      <ListItemText key={song.id} primary={ song.title + " 🎵 "} secondary={ song.artist + " 🎤 " }/>
       <LikeButton song={song} handleUpdateSong={handleUpdateSong}/>
     </ListItem>
   )

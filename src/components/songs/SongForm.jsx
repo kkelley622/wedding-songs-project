@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 
 const SongForm = ({ handleSubmit }) => {
@@ -21,7 +22,7 @@ const SongForm = ({ handleSubmit }) => {
     alert("Your Song Was Added Successfully")
   }
 
-  console.log(formData)
+
   return (
     <form onSubmit={clearForm} style={{display:"flex", flexDirection:"column", width:"300px"}}>
       <label>Title:</label>
@@ -46,3 +47,7 @@ const SongForm = ({ handleSubmit }) => {
 }
 
 export default SongForm
+
+
+
+
