@@ -21,7 +21,7 @@ This app allows users to see what songs people would like to hear at our wedding
 
 ### Conclusion 
 
-THis single page React app brings users to a homepage that provides instructions on how to use the app. Users can view and like songs other users have already added to the list and want to hear at our wedding reception. And they can add their own song that they would like to hear
+This single page React app brings users to a homepage that provides instructions on how to use the app. Users can view and like songs other users have already added to the list and want to hear at our wedding reception. And they can add their own song that they would like to hear
 
 ### Acknowledgements
 
