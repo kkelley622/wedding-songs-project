@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const SongForm = ({ handleSubmit }) => {
   const [formData, setFormData] = useState({
@@ -46,7 +46,7 @@ const SongForm = ({ handleSubmit }) => {
   )
 }
 
-export default SongForm
+export default SongForm;
 
 
 

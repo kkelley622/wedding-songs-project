@@ -4,31 +4,31 @@
       "id": 1,
       "title": "Get Low",
       "artist": "Lil John",
-      "likes": 38
+      "likes": 3
     },
     {
       "id": 2,
       "title": "Just Dance",
       "artist": "Lady Gaga",
-      "likes": 21
+      "likes": 0
     },
     {
       "id": 3,
       "title": "Bohemian Rhapsody",
       "artist": "Queen",
-      "likes": 5
+      "likes": 0
     },
     {
       "id": 4,
       "title": "Billie Jean",
       "artist": "Michael Jackson",
-      "likes": 1
+      "likes": 0
     },
     {
       "id": 5,
       "title": "Titanium",
       "artist": "Sia",
-      "likes": 1
+      "likes": 0
     },
     {
       "id": 6,
@@ -40,163 +40,25 @@
       "id": 7,
       "title": "All the Small Things",
       "artist": "Blink 182",
-      "likes": 2
+      "likes": 0
     },
     {
       "id": 8,
       "title": "Espiral",
       "artist": "Porter",
-      "likes": 1
+      "likes": 0
     },
     {
       "title": "Efecto",
       "artist": "Bad Bunny",
-      "likes": 3,
+      "likes": 0,
       "id": 9
     },
     {
       "title": "Dancing Queen",
       "artist": "ABBA",
-      "likes": 1,
+      "likes": 0,
       "id": 10
-    },
-    {
-      "title": "Hey Ya!",
-      "artist": "Outkast",
-      "likes": 0,
-      "id": 11
-    },
-    {
-      "title": "Stayin Alive",
-      "artist": "Bee Gees",
-      "likes": 0,
-      "id": 12
-    },
-    {
-      "title": "I Wanna Dance With Somebody",
-      "artist": "Whitney Houston",
-      "likes": 0,
-      "id": 13
-    },
-    {
-      "title": "Pump Up the Jam",
-      "artist": "Technotronic",
-      "likes": 0,
-      "id": 14
-    },
-    {
-      "title": "Sone",
-      "artist": "Zoe",
-      "likes": 0,
-      "id": 15
-    },
-    {
-      "title": "Get Lucky",
-      "artist": "Daft Punk",
-      "likes": 0,
-      "id": 17
-    },
-    {
-      "title": "Bidi Bidi Bom Bom",
-      "artist": "Selena",
-      "likes": 0,
-      "id": 20
-    },
-    {
-      "title": "La Chona",
-      "artist": "Los Tucanes De Tijuana",
-      "likes": 0,
-      "id": 21
-    },
-    {
-      "title": "Envolver",
-      "artist": "Anitta",
-      "likes": 1,
-      "id": 22
-    },
-    {
-      "title": "Levitating",
-      "artist": "Dua Lipa",
-      "likes": 5,
-      "id": 23
-    },
-    {
-      "title": "Mi Gente",
-      "artist": "J Balvin",
-      "likes": 8,
-      "id": 24
-    },
-    {
-      "title": "No rompas mi corazon",
-      "artist": "Caballo Dorado",
-      "likes": 5,
-      "id": 25
-    },
-    {
-      "title": "Love Story",
-      "artist": "Taylor Swift",
-      "likes": 1,
-      "id": 26
-    },
-    {
-      "title": "One Kiss",
-      "artist": "Dua Lipa",
-      "likes": 5,
-      "id": 27
-    },
-    {
-      "title": "Say So",
-      "artist": "Doja Cat",
-      "likes": 3,
-      "id": 28
-    },
-    {
-      "title": "The Mother We Share",
-      "artist": "CHVRCHES",
-      "likes": 6,
-      "id": 29
-    },
-    {
-      "title": "YMCA",
-      "artist": "Village People",
-      "likes": 1,
-      "id": 30
-    },
-    {
-      "title": "My Universe",
-      "artist": "Coldplay",
-      "likes": 1,
-      "id": 31
-    },
-    {
-      "title": "Stacy's Mom",
-      "artist": "Fountains of Wayne",
-      "likes": 1,
-      "id": 32
-    },
-    {
-      "title": "Tiny Dancer",
-      "artist": "Elton John",
-      "likes": 0,
-      "id": 33
-    },
-    {
-      "title": "Celebration",
-      "artist": "Kool and the Gang",
-      "likes": 1,
-      "id": 34
-    },
-    {
-      "title": "Despacito",
-      "artist": "Luis Fonsi",
-      "likes": 1,
-      "id": 35
-    },
-    {
-      "title": "Taki Taki",
-      "artist": "DJ Snake",
-      "likes": 0,
-      "id": 36
     }
   ]
 }

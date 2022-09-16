@@ -12,20 +12,18 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-  
-
 const WantedSongs = ( { songs, handleUpdateSongs } ) => {
-    const classes = useStyles();
-
-    const songCards = songs.map(song => <SongCard key={ song.id } song={ song } handleUpdateSongs={handleUpdateSongs}/>)
+  const classes = useStyles();
+  const songCards = songs.map(song => <SongCard key={ song.id } song={ song } handleUpdateSongs={handleUpdateSongs}/>)
+  
   return (
     <div>
         <h1 style={{color: "rgb(20, 90, 50)"}}>Songs We Want to Dance To 💃</h1>
         <List component="nav" aria-label="secondary mailbox folders">
-            { songCards }
+          {songCards}
       </List>
     </div>
   )
 }
 
-export default WantedSongs
+export default WantedSongs;

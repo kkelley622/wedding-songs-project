@@ -5,7 +5,6 @@ import LikeButton from './LikeButton';
 
 const SongCard = ( { song, handleUpdateSong } ) => {
 
-  
   return (
     <ListItem style={{width: 400}}>
       <ListItemText key={song.id} primary={ song.title + " 🎵 "} secondary={ song.artist + " 🎤 " }/>
@@ -14,4 +13,4 @@ const SongCard = ( { song, handleUpdateSong } ) => {
   )
 }
 
-export default SongCard
+export default SongCard;

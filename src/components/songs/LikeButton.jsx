@@ -1,10 +1,9 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 const LikeButton = ({ song, handleUpdateSong }) => {
-    let {id, likes} = song;
+    const {id} = song;
     const [updatedLikes, setUpdatedLikes] = useState(song.likes)
-
-
+    
     const handleLikes = () => {
       const updatedSong = {likes: updatedLikes + 1}
       setUpdatedLikes(updatedLikes + 1);
@@ -22,10 +21,9 @@ const LikeButton = ({ song, handleUpdateSong }) => {
 
   return (
     <div>
-       
-        <button onClick={handleLikes} id={id}>❤️ {updatedLikes}</button>
+      <button onClick={handleLikes} id={id}>❤️ {updatedLikes}</button>
     </div>
   )
 }
 
-export default LikeButton
+export default LikeButton;
