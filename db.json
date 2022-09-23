@@ -4,37 +4,37 @@
       "id": 1,
       "title": "Get Low",
       "artist": "Lil John",
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 2,
       "title": "Just Dance",
       "artist": "Lady Gaga",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 3,
       "title": "Bohemian Rhapsody",
       "artist": "Queen",
-      "likes": 0
+      "likes": 2
     },
     {
       "id": 4,
       "title": "Billie Jean",
       "artist": "Michael Jackson",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 5,
       "title": "Titanium",
       "artist": "Sia",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 6,
       "title": "Mr. Brightside",
       "artist": "The Killers",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 7,
@@ -59,6 +59,30 @@
       "artist": "ABBA",
       "likes": 0,
       "id": 10
+    },
+    {
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "title": "Tiny Dancer",
+      "artist": "Elton John",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "likes": 1,
+      "id": 13
+    },
+    {
+      "title": "All Together Now",
+      "artist": "The Beatles",
+      "likes": 0,
+      "id": 14
     }
   ]
 }

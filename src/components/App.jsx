@@ -28,7 +28,7 @@ const App = () => {
       body: JSON.stringify(songObj)
     });
     const data = await response.json();
-    setSongs([...songs, data])
+    setSongs([data, ...songs])
   }
   
   const handleUpdateSong = (updatedSong) => {
