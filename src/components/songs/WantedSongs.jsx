@@ -12,9 +12,9 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-const WantedSongs = ( { songs, handleUpdateSongs } ) => {
+const WantedSongs = ( { songs, handleUpdateSong } ) => {
   const classes = useStyles();
-  const songCards = songs.map(song => <SongCard key={ song.id } song={ song } handleUpdateSongs={handleUpdateSongs}/>)
+  const songCards = songs.sort((a,b) => a.title > b.title ? 1 : -1 ).map(song => <SongCard key={ song.id } song={ song } handleUpdateSong={handleUpdateSong}/>)
   
   return (
     <div>

@@ -16,7 +16,7 @@ const LikeButton = ({ song, handleUpdateSong }) => {
           body: JSON.stringify(updatedSong),
         })
           .then((r) => r.json())
-          .then(handleUpdateSong);
+          .then(songObj => handleUpdateSong(songObj));
       }
 
   return (

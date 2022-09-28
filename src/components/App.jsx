@@ -32,6 +32,7 @@ const App = () => {
   }
   
   const handleUpdateSong = (updatedSong) => {
+    console.log(updatedSong)
     const updatedSongs = songs.map((song) => song.id === updatedSong.id ? updatedSong : song);
     setSongs(updatedSongs)
   }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Challenge from '../Challenge';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <p align="center" style={{color: "rgb(20, 90, 50)"}}>
         Add your own song to the list by clicking the <strong>Add Your Jam</strong> tab
       </p>
+      
     </div>
     )
 }
