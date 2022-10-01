@@ -32,6 +32,7 @@ const SongForm = ({ handleSubmit }) => {
           aria-label="title"
           value={formData.title}
           onChange={handleChange}
+          required
           />
       <label>Artist:</label>
         <input 
@@ -40,6 +41,7 @@ const SongForm = ({ handleSubmit }) => {
           aria-label="artist"
           value={formData.artist}
           onChange={handleChange}
+          required
           />
           <input type="submit"/>
         </form>
